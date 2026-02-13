@@ -1,0 +1,260 @@
+
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Ismael Maximiliano De Los Santos Huesca</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  font-size: 1.15rem;
+}
+
+a {
+  color: #59a3d4;
+  text-decoration: underline;
+}
+
+.contact-info a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+nav#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav#nav ul {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  list-style: none;
+}
+
+nav#nav .logo a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+
+nav#nav .menu {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1.2rem;
+}
+
+nav#nav .menu a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+nav#nav .menu a:hover {
+  color: #F5277D;  
+  transform: scale(1.05); 
+  border-bottom: 2px solid #F5277D; 
+}
+
+
+#top {
+  display: flex;
+  gap: 4rem;
+  margin: 3rem 10rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.profile {
+  position: fixed;
+  top: 10rem;
+  left: 6rem;
+  width: 270px;
+  text-align: left;
+  z-index: 10;
+}
+
+.profile img {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.profile h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.profile p {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.8rem;
+}
+
+.contact-info li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-info li i {
+  width: 20px;
+  text-align: center;
+  margin-right: 8px;
+  color: #333;
+}
+
+.text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 900px;
+  text-align: justify;
+  margin-left: 260px;
+}
+
+.text header h1 {
+  font-size: 1.4rem;
+  margin-top:2rem; 
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.3rem;
+}
+
+.text h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.2rem;
+}
+.text h3 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.2rem;
+}
+.text p {
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 700px) {
+  #top {
+    flex-direction: column;
+    margin: 2rem;
+    margin-left: 0;
+  }
+
+  .profile {
+    position: static;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <ul>
+    <li class="logo"><a href="index.html">Ismael Maximiliano</a></li>
+    <div class="menu">
+      <li><a href="Cv.html">CV</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <!--<li><a href="talks.html">Talks</a></li>-->
+      <li><a href="portfolio.html">Gallery</a></li>
+    </div>
+  </ul>
+</nav>
+
+<section id="top">
+  <aside class="profile">
+    <img src="foto.jpg" alt="Foto de Ismael Maximiliano De Los Santos Huesca" />
+    <h2>Ismael Maximiliano De Los Santos Huesca</h2>
+    <p><strong> Genomic Sciences undergraduate student</strong></p>
+    <ul class="contact-info">
+      <li><i class="fas fa-location-dot"></i>Cuernavaca, Morelos, México</li>
+      <li><i class="fas fa-envelope"></i> <a href="mailto:ismadlsh@lcg.unam.mx" target="_blank">ismadlsh@lcg.unam.mx</a></li>
+      <li><i class="fab fa-github"></i><a href="https://github.com/MaxHuesca" target="_blank">GitHub</a></li>
+      <!--<li><i class="fab fa-orcid"></i><a href="https://orcid.org/0009-0009-2252-3965" target="_blank">ORCID</a></li>-->
+      <li><i class="fa-brands fa-bluesky"></i><a href="https://bsky.app/profile/max-dlsh-huesca.bsky.social" target="_blank">Bluesky</a>
+</li>
+    </ul>
+  </aside>
+
+  <div class="text">
+    <header>
+      <h1><strong>About Me</strong></h1>
+    </header>
+    <p>I am a <a href="https://www.ccg.unam.mx/en/" target="_blank">Genomic Sciences</a> undergraduate student at the <a href="https://www.unam.mx/" target="_blank">National Autonomous University of Mexico (UNAM)</a> 
+    strognly interest in using and developt computational tools in order to procces high-throughtput data like GNS or transcriptomics
+    in order tu elucidate relevant biological insights in diferent states like disease, I am particulary passionate in central nervous system 
+    disease like Alzheimer dissease AD, also I like development and the genomic landscape of stem cells such as plutipotential and totipotential ones,
+    finaly I am also enagaged in modeling metabolics fluxes and the information it can provide of diferents states in biological systems.</p>
+
+    <h2><strong>Education</strong></h2>
+    <p>
+      <strong>National Autonomous University of Mexico (UNAM), Morelos, Mexico</strong><br>
+      <span style="color: darkgray;">B.S. in Genomic Sciences | 2024–Present</span>
+    </p>
+
+    <h2><strong>Research Experience</strong></h2>
+    <p style="color: gray; display: flex; justify-content: space-between;">
+      <span>📍 On-site | 💻 Remote</span>
+      <span>🔬 Experimental | 🧮 Computational</span>
+    </p>
+
+    
+    <p><strong> Center for Genomic Sciences (CCG), Morelos, Mexico	| <a href="https://sites.google.com/ccg.unam.mx/utrillalab/home" target="_blank">Laboratory of Dr. Jose Utrilla Carreri</a></strong> <br />
+    undergraduate researcher 🔬 🧮  |  📍🇲🇽  May 2025 – Present</p>
+
+    <h2><strong> Knowing more about me </strong></h2>
+    <p>
+    I like knowing new things of about a lot of new topics, particulary I am very passionate about sports
+    i love playing a viewing soccer ⚽. volleyball 🏐, tenis 🥎 and basketball🏀.
+    Others parts of my life focus on having a balanced life betwen my mental and physical state so I like to train my body as I do with my brain, 
+    Also I like to spend time, not much, in playing videogames 🎮.
+    </p>
+  </div>
+</section>
+
+</body>
+</html>
